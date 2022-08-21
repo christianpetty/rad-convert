@@ -1,0 +1,56 @@
+body {
+  max-width: 360px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3px;
+  margin: auto;
+}
+
+#inch-main {
+  background-color: bisque;
+}
+
+#mm-main {
+  background-color: lavender;
+}
+
+.bot {
+  font-size: 2em;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
+#inch-unit {
+  background-color: tomato;
+}
+
+#mm-unit {
+  background-color: mediumslateblue;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  border: 0;
+  border-radius: 0;
+  width: 100%;
+  background-color: transparent;
+  font-size: 2em;
+  text-align: center;
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  outline: none;
+}
+
+.alert {
+  color: orangered;
+}
+  
